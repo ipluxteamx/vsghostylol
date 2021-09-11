@@ -102,7 +102,7 @@ class DialogueBox extends FlxSpriteGroup
 				box.width = 200;
 				box.height = 200;
 				box.x = -100;
-				box.y = 300;
+				box.y = 375;
 			case 'temper':
 				hasDialog = true;
 				box.frames = Paths.getSparrowAtlas('speech_bubble_talking', 'shared');
@@ -120,7 +120,7 @@ class DialogueBox extends FlxSpriteGroup
 				box.width = 200;
 				box.height = 200;
 				box.x = -100;
-				box.y = 375;
+				box.y = 300;
 		}
 
 		this.dialogueList = dialogueList;
